@@ -1,0 +1,18 @@
+#acf_fields .fields .field_type-reusable-group tr.field_name,
+#acf_fields .fields .field_type-reusable-group tr.field_instructions,
+#acf_fields .fields .field_type-reusable-group tr.required {
+	display: none;
+}
+
+.field_type-reusable-group > p.label {
+	display: none;
+}
+
+.acf_postbox .field.field_type-reusable-group {
+	padding: 0;
+}
+
+.acf_postbox > .inside .field_type-reusable-group .field {
+	padding: 15px 10px;
+	border-top: #E8E8E8 solid 1px;
+}
